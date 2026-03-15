@@ -25,8 +25,8 @@ lightbox.addEventListener("click", () => {
 });
 document.querySelectorAll('.lightbox-link').forEach(link => {
   link.addEventListener('click', e => {
-    e.preventDefault(); // prevent default link behavior
-    lightbox.style.display = 'flex'; // show lightbox
-    lightboxImg.src = link.href; // set image
+    e.preventDefault();
+    lightbox.style.display = 'flex';
+    lightboxImg.src = link.href;
   });
   });
