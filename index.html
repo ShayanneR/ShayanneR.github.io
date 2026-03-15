@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>My Website</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header" id="home">
+  <a href="index.html" class="logo">
+    <img src="assets/SR logo_.png" alt="Logo">
+  </a>
+  <h1 class="header-title">Welcome to my Portfolio</h1>
+  <div class="hamburger" id="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <nav class="nav" id="nav">
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Featured Projects</a></li>
+      <li><a href="#footer">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+<section class="about" id="about">
+  <div class="about-container">
+   <h2 class="about-title" id="aboutme">About Me</h2>  
+    <div class="about-content">
+      <div class="about-image">
+        <img src="assets/164DEA11-0589-4E06-879F-C25BB908C72A_1_105_c.jpeg" alt="Shayanne Rocha">
+      </div>
+      <div class="about-text">
+        <h2>Hi 👋🏽 I'm Shayanne Rocha</h2>
+        <p>I'm a creative and detail-oriented web designer and developer with a strong background in graphic design and front-end development. I specialize in building modern, responsive websites that not only look visually appealing but also provide intuitive and engaging user experiences.</p>
+        <p>I enjoy turning ideas into fully functional digital products, carefully balancing aesthetics, usability, and performance. My skill set includes HTML, CSS, JavaScript, and design tools, allowing me to craft cohesive designs from concept to deployment. I'm passionate about staying up-to-date with the latest web technologies and design trends, ensuring that every project I work on is both innovative and user-focused.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="projects" id="projects">
+  <div class="projects-container">
+    <h2 class="projects-title">Featured Projects</h2>
+    <div class="projects-grid">
+        <a href="projects1.html" class="project-card">
+        <img src="assets/istockphoto-1498852742-612x612.jpg" alt="2023/2024">
+        <h3>2023/2024 Past Projects</h3>
+      </a>
+        <a href="projects2.html" class="project-card">
+         <img src="assets/jtnq5989p5rmy0cwx8n8vrkzjr.png" alt="2024/2025">
+         <h3>2025/2026 Past Projects</h3>
+      </a>
+    <div class="project-card">
+      <a href="projects3.html" class="project-card">
+        <img src="assets/TheHomeDepot935x522SocialShare.jpg" alt="2026">
+        <h3>Work Stuff</h3>
+      </a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="contact" id="contact">
+  <h2 class="contact-title">Contact Me</h2>
+  <div class="contact-container">
+    
+    <form class="contact-form">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+      </div>
+      <button type="submit" class="contact-btn">Send Message</button>
+    </form>
+  </div>
+</section>
+<footer id="footer">© Shayanne Rocha 2026</footer>
+<script src="app.js"></script>
+</body>
+</html>
